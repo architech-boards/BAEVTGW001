@@ -21,9 +21,9 @@ The Gateway Solution
 **INTRODUCTION**
 ----------------
 
-The gatway board manages all the necessary connectivity to the cloud service via WiFi. It comes with an antenna and a mini USB cable. It manages a smart sensor board including Bluetooth Smart connectivity and a range of sensors including motion, temperature/humidity and light/proximity. The kit also contains an integrated antenna and a mini-USB cable. A GSM peripheral module with embedded SIM and SIM-connector options is available as an expansion option to the gateway board to enable cellular connectivity up to cloud enterprise software services.
+The gateway board manages all the necessary connectivity to the cloud service via WiFi. It can manage smart sensor boards via Bluetooth Smart connectivity. The board also contains an integrated antenna.
 
-.. image:: _static/gateway.jpg
+Some PMODtm connectors enable expansion of the board peripherals and connectivity:  as an example a GSM peripheral module with embedded SIM and SIM-connector options is available as an expansion option to the gateway board to enable cellular connectivity up to cloud enterprise software services
 
 Hardware Specification
 ----------------------
@@ -31,25 +31,22 @@ Hardware Specification
 ================================== ==================================
 Image part                         Description
 ================================== ==================================
-.. image:: _static/PMOD-I2C.jpg     | PMOD ( I2C ) - Expansion (opt.)
-                                    | - I2C communication
-.. image:: _static/ButtonLeds.jpg   | Button & LEDs
-                                    | - programmable by firmware
+.. image:: _static/PMOD-I2C.jpg     .. image:: _static/pmod_i2c.jpg
+                                    | PMOD ( I2C ) - Expansion (opt.)
+.. image:: _static/PMOD-UART.jpg    .. image:: _static/pmod_type4.jpg
+                                    | PMOD ( UART/SPI ) Expansion
 .. image:: _static/APM6668.jpg      | APM6668 - WiFi – Smart module - APM Communication
                                     | - it is a transceiver module made by apm Communication, Inc
                                     | one of a range of cost-effective, simple to integrate, and high performance transceivers
-.. image:: _static/USB-master.jpg   | USB Master
-.. image:: _static/USB-slave.jpg    | USB Slave & Power input
-.. image:: _static/TO136.jpg        | TO136 Trust controller Trusted Object
-                                    | - Secure Element and Solution for IoT and M2M applications
+.. image:: _static/USB-master.jpg   | USB Host - Device, micro
+.. image:: _static/USB-slave.jpg    | USB only to power the board, mini
 .. image:: _static/DebugHeader.jpg  | Debug Header
-.. image:: _static/STM32F746.jpg    | STM32F746 ARM Cortex M7 ST
-                                    | - device based on the high-performance ARM®Cortex®-M7 32-bit RISC core 
-                                    | operating at up to 216 MHz frequency.
-.. image:: _static/LAN8742.jpg      | LAN8742 Ethernet PHY
-                                    | - the LAN8742/LAN8742i is a low-power 10BASE-T/100 BASE-TX physical layer (PHY) 
-                                    | transceiver  compliant with  the  IEEE  802.3 and 802.3u standards. 
-.. image:: _static/PMOD-UART.jpg    | PMOD ( UART/SPI ) Expansion
+.. image:: _static/TO136.jpg        | Trusted Object
+                                    | - TO136 Trust controller
+                                    | - Secure Element and Solution for IoT and M2M applications
+.. image:: _static/Leds.jpg         | LEDs
+                                    | - programmable by firmware
+                                    | Button programmable
 ================================== ==================================
 
 Document references
