@@ -4,10 +4,12 @@ Welcome to The Gateway documentation!
 =====================================
 
 
-:Version: 1.00A
-:Copyright: (C)2016 Avnet Memec Silica company
-:Date: 12 Apr 2016
+:Version: 1.00B
+:Copyright: (C)2016 Avnet Silica company
+:Date: 6 Jul 2016
 :Reference name: BAEVTGW001
+
+.. image:: _static/logo.jpg
 
 The Gateway Solution
 --------------------
