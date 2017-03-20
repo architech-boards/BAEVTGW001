@@ -57,5 +57,4 @@ Document references
 The board reference documentation is available on:
 
 - the `Silica Visible Things <http://silica.com/webapp/wcs/stores/servlet/en/silica/visible-things-kits>`_ website. 
-- the `architech-board <http://architechboards.org>`_ website. 
 
